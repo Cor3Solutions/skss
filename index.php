@@ -6,7 +6,7 @@ include 'includes/header.php';
 <!-- Hero Section -->
 <section class="hero-section">
     <div class="hero-background">
-        <img src="assets/images/omaa.jpg" alt="Muayboran Training">
+        <img src="assets/images/cover1.png" alt="Muayboran Training">
         <div class="hero-overlay"></div>
     </div>
 
@@ -31,7 +31,19 @@ include 'includes/header.php';
         </div>
     </div>
 </section>
-
+<!-- Clients Start -->
+ <div class="marquee-content">
+    <div class="loop-set" style="display: flex;">
+        <div class="client-logo">...</div>
+        <div class="client-logo">...</div>
+        </div>
+    
+    <div class="loop-set" style="display: flex;">
+        <div class="client-logo">...</div>
+        <div class="client-logo">...</div>
+        </div>
+</div>
+  <!-- Clients End -->
 <section class="section">
     <div class="container">
         <div class="section-header">
@@ -44,8 +56,7 @@ include 'includes/header.php';
         </div>
 
         <div class="card-grid">
-            <div class="card">
-                <div class="card-icon">⚔️</div>
+            <div class="card card-heritage" onmouseover="this.style.backgroundImage='url(assets/images/mt.jpg)'; this.style.backgroundSize='cover'; this.style.backgroundPosition='center'; this.querySelector('.card-title').style.textShadow='0 2px 4px rgba(0,0,0,0.7)'; this.querySelector('.card-description').style.textShadow='0 2px 4px rgba(0,0,0,0.7)';" onmouseout="this.style.backgroundImage=''; this.querySelector('.card-title').style.textShadow=''; this.querySelector('.card-description').style.textShadow='';">
                 <h3 class="card-title">Authentic Heritage</h3>
                 <p class="card-description">
                     Our curriculum, developed by Ajarn Brendaley Tarnate, preserves the
@@ -53,8 +64,7 @@ include 'includes/header.php';
                 </p>
             </div>
 
-            <div class="card">
-                <div class="card-icon">📈</div>
+            <div class="card card-khan" onmouseover="this.style.backgroundImage='url(assets/images/mt1.jpg)'; this.style.backgroundSize='cover'; this.style.backgroundPosition='center'; this.querySelector('.card-title').style.textShadow='0 2px 4px rgba(0,0,0,0.7)'; this.querySelector('.card-description').style.textShadow='0 2px 4px rgba(0,0,0,0.7)';" onmouseout="this.style.backgroundImage=''; this.querySelector('.card-title').style.textShadow=''; this.querySelector('.card-description').style.textShadow='';">
                 <h3 class="card-title">The Khan System</h3>
                 <p class="card-description">
                     A structured 16-level progression based on constructivist learning,
@@ -62,8 +72,7 @@ include 'includes/header.php';
                 </p>
             </div>
 
-            <div class="card">
-                <div class="card-icon">🧘</div>
+            <div class="card card-mindful" onmouseover="this.style.backgroundImage='url(assets/images/omaa.jpg)'; this.style.backgroundSize='cover'; this.style.backgroundPosition='center'; this.querySelector('.card-title').style.textShadow='0 2px 4px rgba(0,0,0,0.7)'; this.querySelector('.card-description').style.textShadow='0 2px 4px rgba(0,0,0,0.7)';" onmouseout="this.style.backgroundImage=''; this.querySelector('.card-title').style.textShadow=''; this.querySelector('.card-description').style.textShadow='';">
                 <h3 class="card-title">Mindful Growth</h3>
                 <p class="card-description">
                     Beyond physical striking, we integrate meditation and Thai philosophy
@@ -150,89 +159,6 @@ include 'includes/header.php';
                 <blockquote cite="https://www.facebook.com/OrientalMuayboranAcademy" class="fb-xfbml-parse-ignore"><a
                         href="https://www.facebook.com/OrientalMuayboranAcademy">Oriental Muayboran Academy</a>
                 </blockquote>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="section bg-light">
-    <div class="container">
-        <div class="card-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
-            <div class="card" style="border-top: 4px solid #b22222;">
-                <h3 class="card-title">Our Vision</h3>
-                <p class="card-description">
-                    A united community of Muaythai Boran practitioners who passionately embody the core values of OMA,
-                    empowered to contribute to a peaceful and progressive humanity.
-                </p>
-            </div>
-
-            <div class="card" style="border-top: 4px solid #b22222;">
-                <h3 class="card-title">Our Mission</h3>
-                <ul class="card-description" style="text-align: left; padding-left: 1rem; list-style-type: disc;">
-                    <li>Institutionalize the curriculum of Grandmaster Sane Tubthimtong.</li>
-                    <li>Equip members with high-standard knowledge for self-sufficiency.</li>
-                    <li>Solidify strong kinship among all Kru in the Philippines.</li>
-                    <li>Produce well-rounded, champion-quality combative athletes.</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="section">
-    <div class="container">
-        <div class="section-header">
-            <p class="section-subtitle">Our Principles</p>
-            <h2 class="section-title">Core Values & Ethical Oath</h2>
-            <p class="section-description">
-                To solemnly teach others and live by the sacred ethical oath of Muaythai Boran.
-            </p>
-        </div>
-
-        <div class="card-grid">
-            <div class="card">
-                <h3 class="card-title">Respect & Honor</h3>
-                <p class="card-description">
-                    I will respect everyone, especially my family, mentors, and myself, ensuring I never bring disgrace
-                    to the name of Muaythai Boran.
-                </p>
-            </div>
-
-            <div class="card">
-                <h3 class="card-title">Loyalty & Truth</h3>
-                <p class="card-description">
-                    I will be loyal and true to my motherland, standing fearlessly to protect honor, truth, and justice.
-                </p>
-            </div>
-
-            <div class="card">
-                <h3 class="card-title">Conviction</h3>
-                <p class="card-description">
-                    I will live by my principles, stand for the greater good, and hold myself solely responsible for all
-                    my actions.
-                </p>
-            </div>
-
-            <div class="card">
-                <h3 class="card-title">Self-Control</h3>
-                <p class="card-description">
-                    I will maintain unwavering self-discipline and self-control under any circumstance or pressure.
-                </p>
-            </div>
-
-            <div class="card">
-                <h3 class="card-title">Righteousness</h3>
-                <p class="card-description">
-                    I will use my skills and knowledge to protect and defend what is right, never using them to boast or
-                    cause harm.
-                </p>
-            </div>
-
-            <div class="card">
-                <h3 class="card-title">The Pledge</h3>
-                <p class="card-description">
-                    <em>"These I pledge."</em><br>
-                    Living the OMA values is a commitment to personal excellence and the service of others.
-                </p>
             </div>
         </div>
     </div>

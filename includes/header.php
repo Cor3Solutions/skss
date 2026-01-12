@@ -48,33 +48,20 @@ $basePath = $isInPages ? '../' : '';
                             <a href="<?php echo $basePath; ?>pages/about.php" class="nav-link">About Us</a>
                             <ul class="dropdown">
                                 <li><a href="<?php echo $basePath; ?>pages/history.php">History</a></li>
-                                <li><a href="<?php echo $basePath; ?>pages/officials.php">Officials</a></li>
-                                <li><a href="<?php echo $basePath; ?>pages/board-directors.php">Board of Directors</a>
-                                </li>
-                                <li><a href="<?php echo $basePath; ?>pages/khan-members.php">Khan/Members</a></li>
-                                <li><a href="<?php echo $basePath; ?>pages/coaches.php">Coaches</a></li>
-                                <li><a href="<?php echo $basePath; ?>pages/referees.php">Referees</a></li>
+                                <li><a href="<?php echo $basePath; ?>pages/lineage.php">Lineage</a></li> 
+                                <li><a href="<?php echo $basePath; ?>pages/khan-members.php">Khan/Members</a></li> 
                             </ul>
                         </li>
 
                         <li class="nav-item has-dropdown">
-                            <a href="#" class="nav-link">Courses</a>
-                            <ul class="dropdown">
-                                <li><a href="<?php echo $basePath; ?>pages/course-teacher.php">Teacher Course</a></li>
-                                <li><a href="<?php echo $basePath; ?>pages/course-coach.php">Coach Course</a></li>
-                                <li><a href="<?php echo $basePath; ?>pages/course-referee.php">Referee Course</a></li>
-                                <li><a href="<?php echo $basePath; ?>pages/course-student.php">Student Course</a></li>
-                                <li><a href="<?php echo $basePath; ?>pages/standards.php">Our Standards</a></li>
-                            </ul>
+                            <a href="<?php echo $basePath; ?>pages/course.php" class="nav-link">Courses</a>
                         </li>
 
                         <li class="nav-item has-dropdown">
                             <a href="#" class="nav-link">Become a Member</a>
                             <ul class="dropdown">
                                 <li><a href="<?php echo $basePath; ?>pages/khan-grading.php">Khan Grading Structure</a>
-                                </li>
-                                <li><a href="<?php echo $basePath; ?>pages/membership-overview.php">Membership
-                                        Overview</a></li>
+                                </li> 
                                 <li><a href="<?php echo $basePath; ?>pages/membership-benefits.php">Membership
                                         Benefits</a></li>
                             </ul>

@@ -41,9 +41,21 @@ include '../includes/header.php';
 
 <section class="section">
     <div class="container">
-        <div class="section-header text-center">
+        <div class="section-header text-center" style="
+    min-height: 320px;
+    background:
+      linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+      url('../assets/images/omaa.jpg')
+ center / cover no-repeat;
+    padding: 4rem 2rem;
+    border-radius: 12px;
+    color: #fff;
+">
+
             <p class="section-subtitle">Get In Touch</p>
-            <h1 class="section-title">Contact Us</h1>
+             <h1 class="hero-title" style="color:#ffffff; text-shadow: 0 4px 8px rgba(202, 19, 19, 0.6);">
+            Contact Us
+        </h1>
             <p class="section-description">
                 Have questions about our programs or membership? We're here to help.
             </p>

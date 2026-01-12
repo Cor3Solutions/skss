@@ -53,7 +53,7 @@ include '../includes/header.php';
         
         <div style="text-align: center; margin-top: 4rem;">
             <a href="about.php" class="btn btn-outline" style="margin-right: 1rem;">Back to About</a>
-            <a href="officials.php" class="btn btn-primary">Meet Our Officials</a>
+            <a href="lineage.php" class="btn btn-primary">Explore Our Lineage</a>
         </div>
     </div>
 </section>
